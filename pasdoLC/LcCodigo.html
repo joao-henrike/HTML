@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagens</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMxa/6Z6dIdY8pggQwR5CB9dK9plFZx6zF5e7z8" crossorigin="anonymous">
+   
+</head>
+<body>
+    <div class="header">
+        <h1>Hospedagens.com</h1>
+        <div class="nav">
+            <a href="#">Hotéis</a>
+            <a href="#">Contato</a>
+            <a href="#">Entrar</a>
+            <a href="#">Cadastrar-se</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h2>As melhores hospedagens do Brasil</h2>
+        <h3>Mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal, e realizar a viagem 
+            dos seus sonhos</h3>
+            
+        <img class="map-image" src="" alt="Mapa do Brasil">
+        <div class="search-box">
+            <input type="text" placeholder="Qual o local desejado?">
+            <input type="text" placeholder="Data check in">
+            <input type="text" placeholder="Data check out">
+            <button>Procurar hotel</button>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://magazine.zarpo.com.br/wp-content/uploads/2020/08/Mar-azul-e-ilhas-paradis%C3%ADacas-veja-o-que-fazer-em-Angra-dos-Reis-770x515.jpg" alt="Angra dos Reis">
+            <div class="content">
+                <h3>Angra dos Reis</h3>
+                <p>Desfrute de um paraíso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIbQs2-RkRlxRHM-BAQF41m3KNIeUr5yREgA&s" alt="Arraial do Cabo">
+            <div class="content">
+                <h3>Arraial do Cabo</h3>
+                <p>Conecte-se com a natureza em Arraial do Cabo! Nossa pousada está localizada próxima às praias.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="https://estado.sc.gov.br/noticias/wp-content/uploads/sites/3/2014/09/treze-tilias.jpg" alt="Treze Tílias">
+            <div class="content">
+                <h3>Treze Tílias</h3>
+                <p>Viva a experiência de um vilarejo europeu no Brasil! Nossa pousada em Treze Tílias é perfeita.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1unh3JOI3twNpDDvnLdyB0fV5KeaZH2hyoQ&s" alt="Ipanema">
+            <div class="content">
+                <h3>Ipanema</h3>
+                <p>Explore a rica cultura e história de Ipanema! Nossa pousada é o ponto de partida ideal para conhecer.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <p>Fale com um do nossos acessores </p>
+        <p>hospedagens@contato.com.br: </p>
+        <text> (11) 0800-707-0707</text>
+
+
+        <div class="footer a">
+            <p>Fale com um do nossos acessores </p>
+  
+           
+           
+           <style>
+                body {
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f0f0;
+                    overflow-y: scroll;
+                    
+                }
+        
+                .header {
+                    background-color: #003C8F;
+                    padding: 10px;
+                    color: white;
+                    text-align: left;
+                    position: relative;
+                
+                }
+        
+        
+                .header h1 {
+                    margin: 0;
+                    font-size: 24px;
+                    align-items: cent;
+                }
+        
+                .nav {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
+        
+                .nav a {
+                    margin: 0 10px;
+                    color: white;
+                    text-decoration: none;
+                }
+        
+                .hero {
+                    background-color: #003C8F;
+                    color: white;
+                    padding: 50px 50px;
+                    text-align: center;
+                    position: relative;
+                }
+        
+                .hero h2 {
+                    margin-top: 0;
+                    font-size: 36px;
+                }
+        
+                .hero p {
+                    font-size: 18px;
+                }
+        
+                .hero .map-image {
+                    position: absolute;
+                    right: 20px;
+                    top: 50px;
+                    max-width: 250px;
+                }
+        
+                .search-box {
+                    background-color: white;
+                    margin: 20px auto;
+                    max-width: 800px;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(1, 1, 1,1);
+                }
+        
+                .search-box input {
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    padding: 10px;
+                    flex: 1;
+                    margin-right: 10px;
+                }
+        
+                .search-box button {
+                    background-color: #28a745;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                }
+        
+                .carousel-container {
+                    position: relative;
+                    max-width: 100%;
+                    margin: 20px auto;
+                    overflow: hidden;
+                    border-radius: 10px;
+                }
+        
+                .carousel-track {
+                    display: flex;
+                    transition: transform 0.5s ease-in-out;
+                }
+        
+                .carousel-item {
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+               
+                .carousel-navigation {
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    transform: translateY(-50%);
+                }
+        
+                .carousel-navigation button {
+                    background-color: rgba(0, 0, 0, 0.5);
+                    border: none;
+                    color: white;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+        
+                .grid-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin: 20px;
+                }
+                   
+        
+                .grid-item {
+                    background-color: white;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    margin: 10px;
+                    max-width: 250px;
+                    overflow: hidden;
+                }
+
+                .grid-item img {
+                    width: 100%;
+                    height: auto;
+                }
+        
+                .grid-item .content {
+                    padding: 10px;
+                }
+        
+                .grid-item h3 {
+                    margin-top: 0;
+                    font-size: 18px;
+                }
+        
+                .grid-item p {
+                    font-size: 14px;
+                }
+        
+                .footer {
+                    background-color: #28a745;
+                    color: white;
+                    text-align: center;
+                    padding: 20px;
+                    margin-top: 20px;
+                }
+        
+                .footer a {
+                    color: yellow;
+                    text-decoration: none;
+                }
+
+                .footeryellow {
+                    background-color: yellow;
+                    padding: 10px;
+                    color: yellow;
+                    text-align: left;
+                    position: relative;
+                }                      
+                
+            </style>
+
+      
